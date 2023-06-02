@@ -1,0 +1,21 @@
+name: "TrollingFreedom"
+version: 2.4.3
+description: "Troll Plugin with GUI"
+author: iAngry
+main: me.iangry.trollingfreedom.main.Core
+softdepend: [Essentials, Citizens, ProtocolLib]
+api-version: 1.13
+commands:
+  trollingfreedom:
+    description: Plugin help
+    aliases: [ tf ]
+  trollgui:
+    descrption: Troll GUI open
+    aliases: [tgui, trollingfreedomgui, tfgui]
+  untroll:
+    description: Untroll player
+    aliases: [ stoptroll ]
+  trollp:
+    description: Troll with CMD
+  control:
+  test:

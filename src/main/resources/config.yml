@@ -1,0 +1,316 @@
+prefix: '&b&lTF &8| &7'
+# For chat. + settings menu
+no-perms: '&b&lTF &8| &7You have no permission to run this command'
+# Chat massages
+cant-use-in-console: "&b&lTF &8| &bYou cannot use this command in console"
+not-online: "&b&lTF &8| &b%player% &3is not online"
+untrolled: "&b&lTF &8| &b%player% &3has been untrolled"
+cannot-troll-yourself: "&b&lTF &8| &7You cannot troll yourself with this specific troll"
+control-troll-grace-period: "&b&lTF &8| &7The troll has ended so you have &c&l30 seconds &7of spectator mode/invisibility to leave"
+control-troll-grace-period-ended: "&b&lTF &8| &7You are now visible"
+trollp-usage: "&b&lTF &8| &bCommand Usage: &3/trollp <PLAYER> <TROLL>"
+trollingfreedom-console-no-update: "&3[&9TrollingFreedom&3] &bThere is no new update available"
+#/TrollingFreedom
+trollingfreedom-help:
+  - "&3[&9TrollingFreedom&3]"
+  - "&bAuthor&7: &3iAngry - &bDiscord&7: &3&nhttps://discord.gg/DkWRaszkDy"
+  - "&bVersion&7: &3%version%"
+  - "&bCommands&7: "
+  - "&bGUI&7: &3/Troll"
+  - "&bCMD Line&7: &3/Trollp"
+  - "&bStop Trolls:&7: &3/UnTroll (Player)"
+values:
+  using-uuid: true
+  dependency-downloader: true
+menu:
+  select-player: '&7Select a player'
+  settings: '&cSelect settings'
+  menu-title: '&8|&r &b&l&nTrolling&3&l&nFreedom&r &8|'
+  # for the troll menu (Not settings!)
+  messages:
+    no-item-in-hand: '&7Player &b&l%player% &7Doesn''t have an item in the hand!'
+    restart: '&cReloaded the configuration.'
+    items-dropped-single: '&7Successfully dropped &b%ITEM_NAME%&7 (&b%ITEM_AMOUNT%&7) from &b%PLAYER%'
+# Item GUI
+items:
+  afk-name: '&6AFK'
+  afk-lore: '&7Your victim will see a fake AFK message'
+  #^ AFK
+  unafk-name: '&5UnAFK'
+  unafk-lore: '&7Your victim will see a fake UnAFK message'
+  #^ UnAFK
+  entitydie-name: '&cEntity Die'
+  entitydie-lore: '&7Kills all entities in a 10 block radius around your victim'
+  #^ Entity Die
+  annoy-name: '&eAnnoy'
+  annoy-lore: '&7Annoys your victim with villager sounds'
+  #^ Annoy
+  anvildrop-name: '&8Anvil Drop'
+  anvildrop-lore: '&7Drops anvils on your victim'
+  #^ Anvil Drop
+  aquaphobia-name: '&3Aquaphobia'
+  aquaphobia-lore: '&7Hurts your victim when they enter water'
+  #^ Aquaphobia
+  bedexplosion-name: '&6Bed Explosion'
+  bedexplosion-lore: '&7Explode your victims bed when they click it'
+  #^ Bed explosiom
+  bedmissing-name: '&4Bed Missing'
+  bedmissing-lore: '&7Sends your victim the bed missing packet'
+  #^ Bed missing
+  break-name: '&bStop Block Break & Place'
+  break-lore: '&7Stops your victim from breaking/placing blocks'
+  #^ Break block
+  cage-name: '&8Cage'
+  cage-lore: '&7Cages your victim in glass'
+  #^ Cage
+  cavesounds-name: '&8Cave Sounds'
+  cavesounds-lore: '&7Plays creepy cave sounds to your victim'
+    #^ Cave sounds
+  chatchange-name: '&6Random Chat'
+  chatchange-lore: '&7Changes your victims chat to random funny messages'
+  #^ Chat change
+  coffin-name: '&7Coffin Dance'
+  coffin-lore: '&7Spawns pallbearers next to your victim and plays music'
+  #^ Coffin dance
+  credits-name: '&7End Credits'
+  credits-lore: '&7Sends the end credits packet to your victim'
+  #^ Credits
+  creeperawman-name: '&bCreeper Aw Man..'
+  creeperawman-lore: '&7So we back in our mine..'
+  #Creeper Aw Man
+  entitymultiply-name: '&bEntity Multiply On Kill'
+  entitymultiply-lore: '&7Multiplies any mob your victim kills'
+  #Creeper Aw Man
+  deafen-name: '&9Deafen/Mute'
+  deafen-lore: '&7Prevents your victim from chatting'
+  #Deafen
+  demo-name: '&eDemo Menu'
+  demo-lore: '&7Sends the demo menu purchase minecraft packet to your victim'
+  #^ Demo Menu
+  dropall-name: '&cDrop All'
+  dropall-lore: '&7Drops all of your victims inventory onto the floor'
+  #^ Drop All
+  explodingchicken-name: '&6Exploding Chicken'
+  explodingchicken-lore: '&7Your victim will be greeted by exploding chicken'
+  #^ Exploding chicken
+  explosivesheep-name: '&5Explosive Sheep'
+  explosivesheep-lore: '&7Your victim will be exploded by rainbow sheep bombs'
+  #^ Explosive sheep
+  fakecrash-name: '&cFake Crash'
+  fakecrash-lore: '&7Sends a fake crash kick to your victim'
+  #^ Fake crash
+  fakereload-name: '&eFake Reload'
+  fakereload-lore: '&7Fakes a server /reload to your victim'
+  #^ Fake reload
+  forcejump-name: '&8Force Jump'
+  forcejump-lore: '&7Forces your victim to jump like a rabbit'
+  #^ Force jump
+  freeze-name: '&3Freeze'
+  freeze-lore: '&7Prevents your victim from moving'
+  #^ Freeze
+  herobrine-name: '&6Herobrine'
+  herobrine-lore: '&7Spawns Herobrine!'
+  #^ HERoBRInE
+  hideallplayers-name: '&4Hide All Players'
+  hideallplayers-lore: '&7Prevents your victim from seeing players'
+  #^ Hide All Players
+  instatoolbreak-name: '&bInstant Tool Break'
+  instatoolbreak-lore: '&7Your victims tools will instantly break on use'
+  #^ Instant Tool Break
+  inventorystop-name: '&8Inventory Stop'
+  inventorystop-lore: '&7Prevents your victim from opening inventories'
+  #^ Stops Inventory
+  invsee-name: '&8Communist Inventory'
+  invsee-lore: '&7Opens your victims inventory to the whole server, Stalin approves'
+  #^ Inventory open to whole server
+  kittycannon-name: '&6Kitty Cannon'
+  kittycannon-lore: '&7Shoots cats into your victim'
+  #^ Kitty cannon
+  lag-name: '&7Lag'
+  lag-lore: '&7Makes your victim think they are lagging'
+  #^ Fake lag
+  launch-name: '&7Launch'
+  launch-lore: '&7Launches your victim into the sky, wooo'
+  #^ Launch into the sky
+  lightning-name: '&bThor''s Lightning'
+  lightning-lore: '&7Strikes lightning when your victim walks'
+  #Thor Lightning
+  lockinventory-name: '&bLock Inventory'
+  lockinventory-lore: '&7Stops your victim from opening any chests and containers'
+  #Inventory Lock
+  nick-name: '&9Random Nick'
+  nick-lore: '&7Changes your victims name each time they chat'
+  #Random Nick
+  op-name: '&eFake OP'
+  op-lore: '&7Fake OPs your victim, they better be from planetminecraft'
+  #^ Fake OP
+  unop-name: '&cFake UnOP'
+  unop-lore: '&7Fake UnOPs your victim'
+  #^ Fake UnOP
+
+  fakeclose-name: '&6Fake Close'
+  fakeclose-lore: '&7Your victim will be kicked like the server is closing'
+  #^ Fake /Stop
+  fakeban-name: '&5Fake Ban'
+  fakeban-lore: '&7Your victim will be shown a fake ban kick'
+  #^ Fake Ban
+  burn-name: '&cBurn'
+  burn-lore: '&7Burns your victim..'
+  #^ Burn baby burn
+  potato-name: '&ePotato'
+  potato-lore: '&7Turns your victim into a simple potato'
+  #^ Potato
+  pumpkin-name: '&8Pumpkin Head'
+  pumpkin-lore: '&7Puts a pumpkin on your victims head'
+  #^ Pumpkin head
+  rainitems-name: '&3Rain Items'
+  rainitems-lore: '&7It''s raining dirt onto your victim!'
+  #^ Rain items
+  randominv-name: '&6Random Inventory'
+  randominv-lore: '&7Replaces any inventory your victim opens with a random one'
+  #^ Random Inventory
+  randomparticle-name: '&4Random Particle'
+  randomparticle-lore: '&7Randomly makes your victim fart out particles'
+  #^ Random particle fart
+  randomtp-name: '&bRandom TP'
+  randomtp-lore: '&7Teleports your victim somewhere random in the world'
+  #^ Random TP
+  rickroll-name: '&8Rick Roll'
+  rickroll-lore: '&7Never gonna give you up..'
+  #^ Rick Astley..
+  silverfish-name: '&8Silverfish'
+  silverfish-lore: '&7Spawns attacking silverfish to eat your victim'
+  #^ Silverfish
+  slenderman-name: '&6Slenderman'
+  slenderman-lore: '&7Slenderman is coming.'
+  #^ Slenderman
+  slipperyhands-name: '&7Slippery Hands'
+  slipperyhands-lore: '&7Drops everything your victim is holding'
+  #^ Slippery hands
+  sneakdestroy-name: '&7Sneak Destroy'
+  sneakdestroy-lore: '&7Destroys the block your victim is on when they sneak'
+  #^ Sneak Destroy
+  snowman-name: '&bExplosive Snowman'
+  snowman-lore: '&7Just a normal snowman, right?'
+  # Snowman
+  spin-name: '&bSpin'
+  spin-lore: '&7Spins your victim endlessly'
+  # Spin
+  starve-name: '&9Starve'
+  starve-lore: '&7Starves your victim'
+  # Starve
+  timeflash-name: '&eSky Flash'
+  timeflash-lore: '&7Flashes your victims sky, LSD??'
+  #^ Time Flash
+  tnt-name: '&cFake Nuke'
+  tnt-lore: '&7Fake /Nukes your victim'
+  #^ Fake Nuke
+
+  ghastsound-name: '&6Ghast Sound'
+  ghastsound-lore: '&7Your victim will be spooked by ghast sounds'
+  #^ Ghast sound
+  nuke-name: '&5Nuke'
+  nuke-lore: '&7Your victim will be &4&lNUKED'
+  #^ Nuke
+  tntplace-name: '&cTNT Place'
+  tntplace-lore: '&7Replaces your victims blocked with primed tnt'
+  #^ TNT place
+  void-name: '&eVoid TP'
+  void-lore: '&7Teleports your victim to the void'
+  #^ TP to void
+  vomit-name: '&8Vomit'
+  vomit-lore: '&7Makes your victim vomit out of their mouth'
+  #^ Vomit
+  worldloading-name: '&3World Loading'
+  worldloading-lore: '&7Sends the world loading screen to your victim, they''re stuck now hehe'
+  #^ World Loading Screen
+  explodeonchat-name: '&4Explode On Chat'
+  explodeonchat-lore: '&7Explodes your victim when anyone sends a chat message'
+  #^ Explode On Chat
+  invrave-name: '&dInventory Rave'
+  invrave-lore: '&aC&bo&cl&do&eu&fr&6!'
+  #^ Inventory Rave
+  invert-name: '&2Invert Walk'
+  invert-lore: '&7Inverts your victims walking and moving!'
+  #^ Invert Walk
+  bednight-name: '&8Bed Night Message'
+  bednight-lore: '&7Shows victim that they can only sleep at night bed message'
+  #^ Can only sleep at night message
+  bedmonster-name: '&8Bed Monster Message'
+  bedmonster-lore: '&7Pranks victim that monsters are nearby bed message'
+  #^ Monsters are nearby bed
+  stopsleep-name: '&9Stop Sleep'
+  stopsleep-lore: '&7Stops victim from being able to enter bed'
+  #^ Stop bed entry
+  freefall-name: '&bFree Fall'
+  freefall-lore: '&7Drops your victim from the highest point of the sky'
+  #^ Free fall from the clouds troll
+  reversemessage-name: '&9Reverse Chat Message'
+  reversemessage-lore: '&7Reverses your victims chat messages when they chat'
+  #^ Reverse victim chat message
+  guardian-name: '&3Elder Test Hallucination'
+  guardian-lore: '&7Your victim hallucinates elder guardians!'
+  #^ Elder guardian hallucination appearance scare
+  poop-name: '&ePoop'
+  poop-lore: '&7Your victim will poop on sneak!'
+  #^ Poop on sneak
+  control-name: '&aControl'
+  control-lore: '&7I control you now!'
+  #^ Control victims movement, actions and chat
+  ringoffire-name: '&e&lRing &c&lOF &6&lFIRE'
+  ringoffire-lore: '&cRing of fire follows victim'
+  #^ Ring Of Fire
+
+  restart-name: '&cRestart the plugin'
+  restart-lore: '&7Reloads the config.'
+  #^ Restart
+  # |
+  #\/ Next Page
+  nextpage-name: '&cNext Page.'
+  nextpage-lore: '&7->'
+  # |
+  #\/ Main Page
+  mainpage-name: '&cMain Page.'
+  mainpage-lore: '&7-> Page 1'
+  #Backpage
+  backpage-name: '&cBack Page'
+  backpage-lore: '&7<- '
+  #Selector
+  Playerselector-name: '&cPlayer Selector'
+  Playerselector-lore: '&7Change your victim'
+  #Untroll
+  Untroll-name: '&cStop Trolls'
+  Untroll-lore: '&7Remove trolls from your victim'
+  #Untroll all
+  Untrollall-name: '&cStop All Trolls'
+  Untrollall-lore: '&7Remove trolls from all players'
+
+  # Messages that will apply on item lore:
+  # Like if a player has OP.
+  messages:
+    isOP: '&7This player has &cOP'
+    enabled: '&7| &aENABLED &7|'
+    disabled: '&7| &cDISABLED &7|'
+
+troll-config:
+  randomchat:
+    - "Number one. Steady hand. One day, Kim Jong Un need new heart"
+    - "I do operation. But mistake! Kim Jong Un die! SSD very mad!"
+    - "I hide fishing boat, come to America. No English, no food, no money."
+    - "Darryl give me job. Now I have house, American car and new woman. Darryl save life."
+    - "My big secret. I kill Kim Jong Un on purpose. I good surgeon. The best!"
+    - "My fellow Americans, due to the overwhelming amount of Black squares teenage girls are posting on Instagram, the supreme court has decided end racism completely. "
+    - "What the fuck did you just fucking say about me, you little bitch?"
+    - "Ill have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills."
+    - "AITA For Killing My Political Rival To Win The Election?"
+    - "Using an alt account because of people trace this back to me my reelection chances might get hurt."
+    - "I (74M) am finishing up my first term as President of the United States of America. Let me tell you, America is an incredible country, probably one of the best countries in the whole nation. "
+    - "As my reelection comes closer and closer, my opponent Sleepy Joe has been leading in approval ratings, and I began to get worried."
+    - "Let me tell you, I am the best at being worried. Just ask anybody in my administration, I get worried like no other president."
+    - "Anyways, I was considering putting Sleepy Joe to sleep for good, which I think is a service not only to his family, but also the nation as a whole."
+    - "I was going to ask my good pal Putin to borrow some of that poison he’s using to silence the libtards in his country. So Reddit, am I the asshole?"
+    - "Were no strangers to love, You know the rules and so do I"
+    - "A full commitments what Im thinking of. You wouldn't get this from any other guy"
+    - "dont let this message distract you from the fact that in 1998, The Undertaker threw Mankind off Hell In A Cell, and plummeted 16 ft through an announcers table."
+  rain-item-material: DIRT
+  herobrine-levitation: true
